@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Aplicación</title>
+    <link rel="stylesheet" href="../static/css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Momento 1</h1>
+        <nav>
+            <div class="banner">
+                <img src="../static/images/imagen_2024-09-12_181000847-removebg-preview.png"  >
+
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#register">Registro</a></li>
+                <li><a href="#about">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-ini">
+            <section id="home">
+                <h2>Bienvenido</h2>
+                <p>Contenido de la página de inicio. Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Odio voluptatibus harum error. Iste, modi adipisci, explicabo 
+                    facilis eos repudiandae dolore omnis alias recusandae sunt, asperiores dignissimos. 
+                    Sint eius explicabo omnis?</p>
+            </section>
+    
+        </div>
+        <section id="register">
+            <form action="/api/usuarios/" method="post">
+                <h2>¡Queremos saber más de ti!</h2>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="city">Edad:</label>
+                <input type="number" id="age" name="age">
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="city">Ciudad:</label>
+                <input type="text" id="city" name="city">
+                
+                
+                <button type="submit">Enviar datos</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024. Todos los derechos reservados.</p>
+        <p>Equipo:</p>
+        <ul>
+            <li><a href="https://github.com/Henao1820" target="_blank">Santiago Henao Cuervo</a></li>
+            <li><a href="https://github.com/cinamonArk" target="_blank">Kevin Gutiérrez Zapata</a></li>
+            <li><a href="https://github.com/DIDLD" target="_blank">Juan David Zapata Usuga</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
