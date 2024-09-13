@@ -1,0 +1,151 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1c1c;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2d2d2d;
+    padding: 0rem;
+    text-align: center;
+    color: #d4af37;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #d4af37;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #c8ac30;
+    text-decoration: underline;
+}
+
+.banner img {
+    width: 150px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.containerini {
+    max-width: 100px;
+}
+
+#home, h2, p {
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d4af37;
+}
+
+form {
+    background-color: #2d2d2d;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #d4af37;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #333;
+    border: 1px solid #b89f2b;
+    border-radius: 4px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #d4af37;
+}
+
+form button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #d4af37;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #b89f2b;
+}
+
+footer {
+    background-color: #2d2d2d;
+    color: #d4af37;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0;
+}
+
+footer ul li {
+    margin: 0.5rem 0;
+}
+
+footer ul li a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #b89f2b;
+    text-decoration: underline;
+}
